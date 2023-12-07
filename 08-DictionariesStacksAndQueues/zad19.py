@@ -2,6 +2,7 @@ import json
 
 with open("students.json") as f:
     file = json.load(f)
+print(file)
 
 with open("limited.json", "w") as limit:
     dict = []
